@@ -1,0 +1,35 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.head{
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+
+    
+}
+body{
+    background-color: orangered;
+}
+img{
+    width: 300px;
+    height: 320px;
+}
+.content1,.content2,.content3,.content4{
+    display: flex;
+    padding: 20px;
+    
+}
+.content1 div,.content2 div,.content3 div,.content4 div{
+    padding: 10px;
+}
+.content1,.content2,.content3,.content4{
+    border: 5px solid orangered;
+    background-color: antiquewhite;
+}
+p{
+    text-align: justify;
+    font-size: larger;
+}
